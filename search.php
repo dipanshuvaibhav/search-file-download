@@ -8,9 +8,11 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 
+    <!-- Custom Code Added Here -->
     <script type="text/javascript" src="script.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   </head>
+
   <body>
     <div class="s003">
       <form>
