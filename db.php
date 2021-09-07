@@ -1,13 +1,11 @@
 <?php
-//Database connection.
-$con = MySQLi_connect(
-   "localhost", //Server host name.
-   "root", //Database username.
-   "", //Database password.
-   "autocomplete" //Database name or anything you would like to call it.
-);
-//Check connection
-if (MySQLi_connect_errno()) {
-   echo "Failed to connect to MySQL: " . MySQLi_connect_error();
+$servername = "us-cdbr-east-04.cleardb.com";
+$dbUsername ="b5c7a3eaf1b9bd";
+$dbpwd = "074dabf5";
+$dbName = "heroku_479a956ccf60830";
+
+$conn = mysqli_connect($servername,$dbUsername,$dbpwd,$dbName);
+if(!$conn){
+  die("Connection Failed:".mysqli_connect_error());
 }
 ?>
