@@ -18,20 +18,20 @@
     <div class="s003">
       <form>
         <div class="inner-form">
-          <div class="input-field first-wrap">
+          <!-- <div class="input-field first-wrap">
             <div class="input-select">
               <select data-trigger="" name="choices-single-defaul">
                 <option placeholder="">Certificate</option>
-                <!-- <option>New Arrivals</option>
+                <option>New Arrivals</option>
                 <option>Sale</option>
                 <option>Ladies</option>
                 <option>Men</option>
                 <option>Clothing</option>
                 <option>Footwear</option>
-                <option>Accessories</option> -->
+                <option>Accessories</option>
               </select>
             </div>
-          </div>
+          </div> -->
           <div class="input-field second-wrap">
             <input id="search" type="text" placeholder="Enter Name" />
           </div>
