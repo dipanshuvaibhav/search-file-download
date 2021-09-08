@@ -62,4 +62,8 @@
 
     </script>
   </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+  <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-database.js"></script>
+
 </html>
